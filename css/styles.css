@@ -139,7 +139,7 @@ a.btn-view:hover {
   top: 0;
   left: 0;
   width: 100%;
-  background: #8a8a8a;
+  background: #cacaca;
   /* couleur de ta navbar */
   z-index: 1000;
   box-shadow: 0 2px 8px rgba(37, 37, 37, 0.04);
@@ -147,6 +147,7 @@ a.btn-view:hover {
   padding: 0.5rem 0;
   display: flex;
   justify-content: center;
+
 }
 
 .navbar ul {
@@ -333,6 +334,7 @@ a.btn-view:hover {
 }
 
 .parcours {
+  background-color: #ffffff;
   padding: 60px 50px;
   margin-top: 40px;
 }
