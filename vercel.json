@@ -5,7 +5,7 @@
             "headers": [
                 {
                     "key": "Content-Type",
-                    "value": "application/pdf"
+                    "value": "assets/pdf"
                 },
                 {
                     "key": "Cache-Control",
