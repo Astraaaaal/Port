@@ -346,8 +346,19 @@
             <p class="social-icon">📸</p>
           </div>
           <div class="contact-item">
-            <p> MON NUMERO : + 33 7 55 61 71 50</p>
+            <a href="#" onclick="copyToClipboard('0601020304'); return false;"> MON NUMERO : + 33 7 55 61 71 50</a>
             <p class="social-icon">📞</p>
+            <script>
+              function copyToClipboard(text) {
+                navigator.clipboard.writeText(text)
+                  .then(() => {
+                    alert("Numéro copié dans le presse-papiers : " + text);
+                  })
+                  .catch(err => {
+                    console.error("Erreur lors de la copie : ", err);
+                  });
+              }
+            </script>
           </div>
         </div>
 
