@@ -134,6 +134,64 @@ a.btn-view:hover {
   background-color: #387730;
 }
 
+.navbar {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(60, 60, 60, 0.04);
+  padding: 0.8rem 2rem;
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto 2rem auto;
+  max-width: 800px;
+  position: sticky;
+  top: 20px;
+  z-index: 10;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  background: #f2c811;
+  color: #fff;
+}
+
+/* Pour mobile */
+@media (max-width: 600px) {
+  .navbar ul {
+    gap: 1rem;
+  }
+
+  .navbar {
+    padding: 0.8rem 0.2rem;
+  }
+
+  .navbar a {
+    padding: 8px 8px;
+    font-size: 0.98em;
+  }
+}
+
 /* Header Styles */
 .header {
   height: 60vh;
