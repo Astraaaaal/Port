@@ -93,7 +93,7 @@
       <a href="CVPDF.pdf" class="btn-download" download="MON CV">TELECHARGER</a>
       <script>
         function downloadPDF() {
-          fetch("/images/CVPDF.pdf")
+          fetch("CVPDF.pdf")
             .then(response => response.blob())
             .then(blob => {
               const link = document.createElement('a');
