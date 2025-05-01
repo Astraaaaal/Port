@@ -135,16 +135,18 @@ a.btn-view:hover {
 }
 
 .navbar {
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(60, 60, 60, 0.04);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #8a8a8a;
+  /* couleur de ta navbar */
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(37, 37, 37, 0.04);
+  border-radius: 0 0 16px 16px;
+  padding: 0.5rem 0;
   display: flex;
   justify-content: center;
-  margin: 2rem auto 2rem auto;
-  max-width: 800px;
-  position: fixed;
-  top: 20px;
-  z-index: 10;
 }
 
 .navbar ul {
