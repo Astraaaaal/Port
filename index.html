@@ -101,15 +101,8 @@
     <h2>MON CV</h2>
 
     <div class="cv-download">
-      <script setup>
-        import cvPdf from 'CVPDF.pdf'; // Chemin relatif depuis ton composant
-      </script>
 
-      <template>
-        <a :href="cvPdf" class="btn-download" download="MON CV">TELECHARGER</a>
-      </template>
-
-
+      <a href="CVPDF.pdf" class="btn-download" download="MON CV">TELECHARGER</a>
       <script>
         function downloadPDF() {
           fetch("CVPDFs.pdf")
